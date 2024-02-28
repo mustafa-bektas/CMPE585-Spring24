@@ -2182,6 +2182,32 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1828133370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5597750239557244586, guid: e0b6979042d7c634196af274692111b2, type: 3}
+  m_PrefabInstance: {fileID: 5597750238964993872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1828133376
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828133370}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 99dc06bc41c76e34a9e03c045f43a79e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1854316766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,6 +2561,18 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5597750239557244591, guid: e0b6979042d7c634196af274692111b2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5597750239557244591, guid: e0b6979042d7c634196af274692111b2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5597750239557244591, guid: e0b6979042d7c634196af274692111b2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5597750239557244591, guid: e0b6979042d7c634196af274692111b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.35
       objectReference: {fileID: 0}
@@ -2568,7 +2606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5597750239557244591, guid: e0b6979042d7c634196af274692111b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 107.84257
       objectReference: {fileID: 0}
     - target: {fileID: 5597750239557244591, guid: e0b6979042d7c634196af274692111b2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
