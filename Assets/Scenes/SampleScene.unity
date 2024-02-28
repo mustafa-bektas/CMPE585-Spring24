@@ -950,7 +950,7 @@ Transform:
   m_GameObject: {fileID: 444177515}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 0.27904502, z: 10}
+  m_LocalScale: {x: 19.359, y: 0.27904502, z: 27.556}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1178370043}
@@ -2298,6 +2298,29 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2120733288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9074905238615910049, guid: d1451f6261e65704fad4d5a9416f1062, type: 3}
+  m_PrefabInstance: {fileID: 9074905238119363785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2120733289 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 9074905238615910048, guid: d1451f6261e65704fad4d5a9416f1062, type: 3}
+  m_PrefabInstance: {fileID: 9074905238119363785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2120733294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120733288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5718b047ad788541a81bae9a294f543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2120733289}
 --- !u!1001 &795465359188237103
 PrefabInstance:
   m_ObjectHideFlags: 0
